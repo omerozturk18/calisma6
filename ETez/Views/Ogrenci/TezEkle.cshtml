@@ -1,0 +1,35 @@
+﻿@using ETez.Models
+@model ETez.Models.Ogrenci
+@{
+    ViewBag.Title = "TezEkle";
+    Layout = "~/Views/Shared/_OgrenciLayout.cshtml";
+}
+
+<h2>StajEkle</h2>
+
+@using (Html.BeginForm("TezEkle","Ogrenci",FormMethod.Post)) {
+
+    <div class="form-group">
+        <label>Tez Adı</label>
+        <input type="text" class="form-control" name="tezAdi" aria-describedby="emailHelp" placeholder="Tez Adı Giriniz">
+    </div>
+    <div class="form-group">
+        <label>Tez Konusu</label>
+        <input type="text" class="form-control datepicker" name="tezKonusu" placeholder="Tez Konusu Giriniz">
+    </div>
+
+    <div class="form-group">
+        <label>Dosya Ekle</label>
+        <input type="file" name="DosyaYolu" required  />
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Alani, "Alanı", new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.DropDownListFor(model => model.Alani, new SelectList(Enum.GetValues(typeof(alani))), "Tez Alanını Seç")
+            @Html.ValidationMessageFor(model => model.Alani, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+}

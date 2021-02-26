@@ -1,0 +1,78 @@
+﻿@using ETez.Models
+@model Ogretmen
+
+
+@{
+    ViewBag.Title = "OgretmenEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>OgretmenEkle</h2>
+
+@using (Html.BeginForm("OgretmenEkle", "Admin", FormMethod.Post)) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<fieldset>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Adi, "Adi", htmlAttributes: new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Adi)
+            @Html.ValidationMessageFor(model => model.Adi, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Soyadi, "Soyadi", new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Soyadi)
+            @Html.ValidationMessageFor(model => model.Soyadi, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TCKimlikNo, "TC Kimlik No", new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.TCKimlikNo, new { type = "number" })
+            @Html.ValidationMessageFor(model => model.TCKimlikNo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TelefonNo, "Telefon", new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.TelefonNo, new { type = "number" })
+            @Html.ValidationMessageFor(model => model.TelefonNo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Sifre, "Şifre", new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.TextBoxFor(model => model.Sifre, new { type = "number" })
+            @Html.ValidationMessageFor(model => model.Sifre, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Alani, "Alanı", new { @class = "control-label col-md-2" })
+
+        <div class="col-md-12">
+            @Html.DropDownListFor(model => model.Alani, new SelectList(Enum.GetValues(typeof(alan))),"Öğretmen Alanı")
+            @Html.ValidationMessageFor(model => model.Alani, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+
+    <div class="col-md-3">
+        <br />
+        <button type="submit" class="btn btn-block btn-primary btn-lg">Öğretmen Ekle</button>
+    </div>
+
+</fieldset>
+}

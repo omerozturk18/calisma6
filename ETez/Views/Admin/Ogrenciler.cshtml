@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ETez.Models.Ogrenci>
+@{
+    ViewBag.Title = "Ogrenciler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Ogrenciler</h2>
+
+<div class="col-lg-12 mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <a href="/Admin/OgrenciEkle" class="btn btn-block btn-success">Öğrenci Ekle</a>
+        </div>
+    </div>
+    <br />
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="fc-header-title">Öğrenciler</h4>
+
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead class="text-uppercase bg-primary">
+                        <tr class="text-white">
+
+                            <th scope="col">Adi</th>
+                            <th scope="col">OkulNo</th>
+                            @*<th scope="col">Staj Yeri</th>
+                            <th scope="col">Başlangıç Tarihi</th>
+                            <th scope="col">Bitiş Tarihi</th>*@
+                            <th scope="col">TC Kimlik No</th>
+                            <th scope="col">Şifre</th>
+                            <th scope="col">Düzenle</th>
+                            <th scope="col">Sil</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model) {
+                        <tr>
+                            <td><a href="/Admin/OgrenciDetay/@item.Id">@Html.Raw(item.Adi + " " + item.Soyadi)</a></td>
+                            <td>@item.OkulNo</td>
+                            @*<td>@item.StajYeri</td>
+                            <td>@item.BaslangicTarihi</td>
+                            <td>@item.BitisTarihi</td>*@
+                            <td>@item.TCKimlikNo</td>
+                            <td>@item.Sifre</td>
+                            <td><a href="/Admin/OgrenciDuzenle/@item.Id" class="btn btn-success">Düzenle</a></td>
+                            <td>
+                                @using (Html.BeginForm("OgrenciSil", "Admin", new { id = item.Id }, FormMethod.Post)) {
+
+                                    <button type="submit" class="btn btn-danger">Sil</button>
+                                }
+                            </td>
+                        </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+﻿@model ETez.Models.Ogrenci
+@{
+    ViewBag.Title = "TezDuzenle";
+    Layout = "~/Views/Shared/_OgrenciLayout.cshtml";
+}
+
+<h2>StajDuzenle</h2>
+
+@using (Html.BeginForm("TezDuzenle", "Ogrenci", FormMethod.Post)) {
+
+    <div class="form-group">
+        <label>Tez Adı</label>
+        @*<input type="text" class="form-control" name="TezAdi" placeholder="Staj Yerini Giriniz">*@
+        @Html.TextBoxFor(model => model.TezAdi, new { type = "text", @class = "form-control", })
+    </div>
+    <div class="form-group">
+        <label>Tez Konusu</label>
+        @Html.TextBoxFor(model => model.TezKonusu, new { type = "text   ", @Value = Model.TezKonusu, @class = "form-control",  })
+        @*<input type="date" class="form-control" name="TezKonusu" placeholder="Staj Başlangıç Tarihini Giriniz">*@
+    </div>
+
+    <div class="form-group">
+        <label>Dosya Yolu</label>
+        @Html.TextBoxFor(model => model.DosyaYolu, new { type = "text", @Value = Model.DosyaYolu, @class = "form-control", })
+        @*<input type="date" class="form-control" name="bitisTarihi" placeholder="Staj Bitiş Tarihini Giriniz">*@
+    </div>
+
+    <button type="submit" class="btn btn-primary">Düzenle</button>
+}

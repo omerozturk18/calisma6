@@ -1,0 +1,94 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\ApplicationInsights.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\csc.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\vbc.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\ETez.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\ETez.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\ETez.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Webpages.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Webpages.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\obj\Debug\ETez.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\obj\Debug\ETez.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ETez\ETez\obj\Debug\ETez.pdb
+C:\Users\ömer\Desktop\ETez\ETez\bin\ApplicationInsights.config
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\csc.exe
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\vbc.exe
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\VBCSCompiler.exe
+C:\Users\ömer\Desktop\ETez\ETez\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ömer\Desktop\ETez\ETez\bin\ETez.dll.config
+C:\Users\ömer\Desktop\ETez\ETez\bin\ETez.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\ETez.pdb
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.Web.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Helpers.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Mvc.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Razor.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Webpages.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Webpages.Razor.dll
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.Web.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Razor.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Webpages.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Webpages.Razor.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Helpers.xml
+C:\Users\ömer\Desktop\ETez\ETez\bin\System.Web.Mvc.xml
+C:\Users\ömer\Desktop\ETez\ETez\obj\Debug\ETez.csprojAssemblyReference.cache
+C:\Users\ömer\Desktop\ETez\ETez\obj\Debug\ETez.csproj.CoreCompileInputs.cache
+C:\Users\ömer\Desktop\ETez\ETez\obj\Debug\ETez.csproj.CopyComplete
+C:\Users\ömer\Desktop\ETez\ETez\obj\Debug\ETez.dll
+C:\Users\ömer\Desktop\ETez\ETez\obj\Debug\ETez.pdb

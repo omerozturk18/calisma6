@@ -1,0 +1,83 @@
+﻿@model ETez.Models.Ogretmen
+@{
+    ViewBag.Title = "OgretmenDetay";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container emp-profile">
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="profile-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="profile-head">
+                <h5>
+                    @Html.Raw(Model.Adi + " " + Model.Soyadi)
+                </h5>
+                <h6>
+                    Düzce Üniversitesi Okulunda Öğretmen
+                </h6>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <a href="@Url.Action("OgretmenDuzenle","Admin",new { id = Model.Id})"><input type="button" class="profile-edit-btn" name="btnAddMore" value="Düzenle" /></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-8">
+            <div class="tab-content profile-tab" id="myTabContent">
+                <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Adi</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Adi</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Soyadi</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Soyadi</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>TC Kimlik No</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.TCKimlikNo</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Telefon No</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.TelefonNo</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Şifre</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Sifre</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

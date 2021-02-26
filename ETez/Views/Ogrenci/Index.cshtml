@@ -1,0 +1,130 @@
+﻿@model ETez.Models.Ogrenci
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_OgrenciLayout.cshtml";
+}
+<br />
+@if (Model.TezAdi != "") {
+    <a style="color:black" href="/Ogrenci/TezEkle/@Model.Id">Tez eklemek için tıklayınız</a>
+} else {
+    <a style="color:black" href="/Ogrenci/TezDuzenle/@Model.Id">Tezi düzenlemek için tıklayınız</a>
+
+  
+    }
+}
+
+<div class="container emp-profile">
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="profile-img">
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="profile-head">
+                <h5>
+                    @Html.Raw(Model.Adi + " " + Model.Soyadi)
+                </h5>
+                <h6>
+                    Düzce Üniversitesi Okulunda Öğrenci
+                </h6>
+
+            </div>
+        </div>
+        @*<div class="col-md-2">
+                <a href="@Url.Action("OgrenciDuzenle","Admin",new { id = Model.Id})"><input type="button" class="profile-edit-btn" name="btnAddMore" value="Düzenle" /></a>
+            </div>*@
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-8">
+            <div class="tab-content profile-tab" id="myTabContent">
+                <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Adi</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Adi</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Soyadi</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.Soyadi</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Okul No</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Model.OkulNo</p>
+                        </div>
+                    </div>
+                    @if (Model.TezAdi != null) {
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Tez Adi</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.TezAdi</p>
+                            </div>
+                        </div>
+                    }
+
+                   
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Tez Konusu</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.TezKonusu</p>
+                            </div>
+                        </div>
+                    
+
+                    @if (Model.BitisTarihi != DateTime.MinValue) {
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Bitiş Tarihi</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@Model.BitisTarihi.ToString("yyyy-MM-dd")</p>
+                            </div>
+                        </div>
+                    }
+                    @if (ViewBag.Ogretmen != null) {
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Öğretmen Adı</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@ViewBag.Ogretmen</p>
+                            </div>
+                        </div>
+                    }
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Dosya</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+
+                                <a style="color:black" href="@Model.DosyaYolu">@Model.DosyaYolu</a></p>
+
+                        </div>
+              
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
